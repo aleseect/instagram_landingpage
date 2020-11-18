@@ -58,9 +58,27 @@ body{
     height: 3rem;
 }
 .instagram-user{
+    height: 6rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius:50%;
     overflow: hidden;
+}
+/*************** Buttons ************************/
+.instagram-login-link{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.instagram-logout-link{
+    color:#0095f6;
+    margin-top: 1rem;
+}
+.not-account{
+    color: rgb(160, 160, 160);
+}
+.link-blue{
+    color: #0095f6;
 }
