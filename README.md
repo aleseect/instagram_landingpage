@@ -1,6 +1,6 @@
 ## Instagram Landingpage :cyclone:
 
-> Esse projeto está em desenvolvimento e foi desenvolvindo com a utilização do flexbox.
+> Esse projeto está em desenvolvimento e com a utilização do flexbox.
 
 
 ### Status do Projeto :
