@@ -29,3 +29,38 @@ body{
     justify-content: center;
     width: 50%;
 }
+.instagram-download img{
+    width: 50rem;
+}
+.instagram-login{
+    display: flex;
+    justify-content: space-around;  /* vertical */
+    align-items: center;
+    flex-direction: column; /* eixo para coluna, horizontal*/
+    width: 50%;
+    min-height: 34rem;
+}
+/****************** Group ******************/
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border:1px solid lightgrey;
+}
+.group:nth-child(1){
+    min-height: 19rem;
+}
+.instagram-logo{
+    height: 3rem;
+}
+.instagram-user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    overflow: hidden;
+}
