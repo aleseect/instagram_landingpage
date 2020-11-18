@@ -127,4 +127,10 @@ body{
     .instagram-login{
         width: 100%;
     }
+    body{
+        background-color: #ffffff;
+    }
+    .group{
+        border:none
+    }
 }
