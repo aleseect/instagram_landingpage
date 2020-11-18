@@ -25,12 +25,12 @@ body{
 }
 .instagram-download{
     display: flex;
-    align-items: vertical;
+    align-items: center;
     justify-content: center;
     width: 50%;
 }
 .instagram-download img{
-    width: 50rem;
+    max-width: 50rem;
 }
 .instagram-login{
     display: flex;
@@ -111,3 +111,20 @@ body{
 }
 
 /*************** Responsivo ************************/
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width: 95%;
+    }
+}
+
+@media (max-width:650px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+    .instagram-download{
+        display: none;
+    }
+    .instagram-login{
+        width: 100%;
+    }
+}
