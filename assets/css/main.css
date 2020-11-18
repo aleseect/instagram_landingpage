@@ -9,9 +9,23 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-color:rgb(243,243,243);
+    background-color:#fafafa;
     margin:0;
     padding: 0;
     display: flex;
     justify-content: center;   
+}
+/******************** GENERAL **************************/
+.instagram-wrapper{
+    display: flex;/* deixa o alinhamento em linha e ocupa todo o espaço de tela*/
+    align-items: center; /* alinhamento vertical */
+    justify-content: start; /*começa da esquerda para direita*/
+    width: 60%;
+    height: 100vh;
+}
+.instagram-download{
+    display: flex;
+    align-items: vertical;
+    justify-content: center;
+    width: 50%;
 }
